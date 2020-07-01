@@ -1,5 +1,15 @@
 # intertodo-react
-A Todo React application.
+A Todo List React application use GraphQL API.
+Backend at: https://github.com/wilsonwu/apollo-todo-gapi
+
+## Features
+ - User Sign Up
+ - User Sign In
+ - Todo List
+ - Add new Todo item
+ - Edit Todo item.
+ - Delete Todo item.
+ - Mark Todo item as Completed
 
 ## Project setup
 ```
