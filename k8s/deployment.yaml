@@ -1,0 +1,20 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: intertodo
+  namespace: dev
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: intertodo
+        tier: app
+    spec:
+      containers:
+        - name: intertodo
+          image: "intertodo:latest"
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 80

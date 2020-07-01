@@ -1,0 +1,17 @@
+@import '~antd/dist/antd.css';
+
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.logo {
+  color: #fff;
+  float: left;
+  text-align: center;
+  font-size: x-large;
+}
